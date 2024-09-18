@@ -1185,6 +1185,7 @@ form {
 	font-size: 1.25vw;
 	width: 2.60vw;
 	font-weight: 600;
+	color: rgba(0, 0, 0, 0.64) !important;
 	background: transparent;
 }
 .pager .btn-main {
@@ -1523,4 +1524,7 @@ form {
 }
 .about.about_page .article-content ul {
 	max-width: 46.875vw;
+}
+.sidebar-news .item-news__text {
+	display: none;
 }
