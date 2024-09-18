@@ -452,6 +452,309 @@
     .header__wrapper {
         padding-right: 0;
     }
+
+
+    .wrapper_page .header {
+        padding: 12px 0;
+        top: 0;
+    }
+    .wrapper_page .header .logo {
+        width: 68px;
+        top: 0;
+    }
+    .header__wrapper .list-socials {
+        margin-left: 20px;
+        display: none;
+    }
+    .wrapper_page {
+        padding-top: 92px;
+    }
+    .breadcrumbs {
+        padding: 24px 0;
+        font-size: 14px;
+    }
+    .breadcrumbs li::after {
+        width: 12px;
+        height: 13px;
+        margin: 0 16px;
+    }
+    .page-news .unit-event {
+        height: 240px;
+    }
+    .page-news .unit-event__image::after {
+        bottom: 100px;
+    }
+    .item-news__content {
+        padding: 24px 16px;
+        height: 385px;
+    }
+    .item-news__image {
+        border-radius: 16px;
+    }
+    .item-news__image img {
+        border-radius: 16px;
+    }
+    .item-news__image::after {
+        top: 211px;
+        border-radius: 16px;
+    }
+    .item-news__date {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .item-news__title {
+        font-size: 18px;
+        line-height: 130%;
+    }
+    .item-news__text {
+        padding: 16px;
+        font-size: 14px;
+        padding-bottom: 0;
+    }
+    .item-news__text::after {
+        width: 14px;
+        height: 14px;
+    }
+    .row.row_news > div {
+        padding: 0 16px;
+        margin-bottom: 20px;
+    }
+    .row.row_news {
+        margin: 0 -16px;
+        margin-bottom: -20px;
+    }
+    .page-news {
+        padding-bottom: 60px;
+    }
+    .pager {
+        margin-top: 35px;
+        gap: 8px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .page-numbers {
+        width: 40px;
+        height: 50px;
+        font-size: 14px;
+        border-radius: 6px;
+    }
+    .page-numbers.dots {
+        font-size: 18px;
+        width: 30px;
+    }
+    .pager .btn-main {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .prev.page-numbers {
+        margin-right: auto;
+    }
+    .next.page-numbers {
+        margin-left: auto;
+    }
+
+    .article-content {
+        margin-right: 0;
+    }
+    .article-content h1 {
+        font-size: 40px;
+        margin-bottom: 24px;
+    }
+    .article-content h2 {
+        font-size: 26px;
+        margin-top: 32px;
+        margin-bottom: 20px;
+    }
+    .article-content h3 {
+        font-size: 20px;
+        margin-top: 32px;
+        margin-bottom: 20px;
+    }
+    .article-content p {
+        margin: 15px 0;
+    }
+    .article-content img {
+        margin-top: 17px;
+        margin-bottom: 24px;
+        border-radius: 16px;
+    }
+    .article-content ol li,
+    .article-content ul li {
+        padding-left: 30px;
+        margin-bottom: 14px;
+    }
+    .article-content ul li::before {
+        width: 8px;
+        height: 8px;
+        top: 6px;
+        left: 9px;
+    }
+    .article-content ol li::before {
+        left: 9px;
+    }
+    .article-content ol,
+    .article-content ul {
+        margin-bottom: 30px;
+    }
+    .page-article {
+        padding-bottom: 60px;
+    }
+    .sidebar-news .item-news {
+        margin-bottom: 24px;
+    }
+    .sidebar-news .item-news__content::after {
+        bottom: 18px;
+        right: 15px;
+        width: 15px;
+        height: 15px;
+    }
+    .sidebar-news .item-news__content {
+        height: 275px;
+        padding-right: 30px;
+    }
+    .page-article .sidebar-news__head {
+        gap: 15px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    .page-contacts {
+        padding-bottom: 50px;
+    }
+    #map {
+        height: 380px;
+        margin-bottom: 28px;
+        border-radius: 16px;
+    }
+    .contacts-info {
+        padding: 20px;
+        border-radius: 16px;
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+    .contacts-info__title {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .contacts-info p {
+        margin-bottom: 16px;
+    }
+    .btn-copy {
+        width: 23px;
+        height: 23px;
+        top: 23px;
+        right: 19px;
+    }
+    .contacts-form {
+        padding: 20px;
+        font-size: 14px;
+        border-radius: 16px;
+    }
+    .contacts-form__title {
+        margin-bottom: 22px;
+        font-size: 28px;
+    }
+    .contacts-form__top p {
+        margin-bottom: 16px;
+    }
+    .contacts-form__content {
+        padding-bottom: 36px;
+        margin-bottom: 36px;
+    }
+    .contacts-form__content .list-socials {
+        margin-top: 20px;
+        justify-content: flex-start;
+    }
+    .item-form input,
+    .item-form textarea {
+        height: 55px;
+        padding: 0 15px;
+        font-size: 14px;
+        border-radius: 8px;
+    }
+    .item-form textarea {
+        padding-top: 16px;
+        height: 200px;
+    }
+    .item-form {
+        margin-bottom: 16px;
+    }
+    .contacts-form .row > div {
+        padding: 0 8px;
+    }
+    .contacts-form .row {
+        margin: 0 -8px;
+    }
+    .contacts-form .btn-main {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .btn-copy span {
+        padding: 5px 8px;
+        border-radius: 3px;
+        margin-bottom: 5px;
+    }
+
+    .page-mockup {
+        padding-bottom: 60px;
+    }
+    .image-mockup img {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .text-mockup {
+        max-width: 330px;
+        font-size: 16px;
+    }
+    .text-mockup br:first-child {
+        display: none;
+    }
+    .page-mockup_thanks .title-section {
+        max-width: 333px;
+        margin-top: 13px;
+        margin-bottom: 33px;
+        font-size: 29px;
+    }
+    .page-mockup_thanks .text-mockup a {
+        margin-top: 13px;
+    }
+    .page-mockup_thanks .text-mockup br {
+        display: block;
+    }
+    .page-mockup_thanks .text-mockup {
+        max-width: 305px;
+    }
+    .page-mockup_thanks .image-mockup img {
+        width: 100%;
+        margin-top: 33px;
+    }
+    .page-mockup_thanks {
+        padding-bottom: 20px;
+    }
+
+    .about.about_page {
+        padding-bottom: 50px;
+        padding-top: 0;
+    }
+    .sidebar-values .title-middle {
+        margin: 30px 0;
+    }
+    .item-value {
+        padding: 25px 20px;
+        font-size: 16px;
+        border-width: 1px;
+        border-radius: 13px;
+        margin-bottom: 20px;
+    }
+    .item-value__title {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .about.about_page .article-content ul {
+        max-width: 100%;
+    }
 }
 
 /* Small Devices, Tablets */

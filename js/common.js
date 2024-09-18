@@ -18,6 +18,51 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     $menu.removeClass("fixed").addClass("default");
   }
 
+  $('.btn-copy').on('click', function(event) {
+	event.preventDefault();
+	
+	var textToCopy = $(".copy-content").html();
+
+	var $tempTextArea = $('<textarea>');
+	$tempTextArea.val(textToCopy);
+	
+	$('body').append($tempTextArea);
+	
+	$tempTextArea.select();
+	document.execCommand('copy');
+	
+	$tempTextArea.remove();
+
+
+	$('.btn-copy span').fadeIn(200);
+	setTimeout(() => {
+		$('.btn-copy span').fadeOut(200);
+	}, 2000);
+});
+
+if ($('.item-about__title').length > 0) {
+	var show = true;
+	  var countbox = ".item-about__title";
+	  $(window).on("scroll load resize", function () {
+		  if (!show) return false; // РћС‚РјРµРЅСЏРµРј РїРѕРєР°Р· Р°РЅРёРјР°С†РёРё, РµСЃР»Рё РѕРЅР° СѓР¶Рµ Р±С‹Р»Р° РІС‹РїРѕР»РЅРµРЅР°
+		  var w_top = $(window).scrollTop(); // РљРѕР»РёС‡РµСЃС‚РІРѕ РїРёРєСЃРµР»РµР№ РЅР° РєРѕС‚РѕСЂРѕРµ Р±С‹Р»Р° РїСЂРѕРєСЂСѓС‡РµРЅР° СЃС‚СЂР°РЅРёС†Р°
+		  var e_top = $(countbox).offset().top; // Р Р°СЃСЃС‚РѕСЏРЅРёРµ РѕС‚ Р±Р»РѕРєР° СЃРѕ СЃС‡РµС‚С‡РёРєР°РјРё РґРѕ РІРµСЂС…Р° РІСЃРµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+		  var w_height = $(window).height(); // Р’С‹СЃРѕС‚Р° РѕРєРЅР° Р±СЂР°СѓР·РµСЂР°
+		  var d_height = $(document).height(); // Р’С‹СЃРѕС‚Р° РІСЃРµРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
+		  var e_height = $(countbox).outerHeight(); // РџРѕР»РЅР°СЏ РІС‹СЃРѕС‚Р° Р±Р»РѕРєР° СЃРѕ СЃС‡РµС‚С‡РёРєР°РјРё
+		  if (w_top + 500 >= e_top || w_height + w_top == d_height || e_height + e_top < w_height) {
+			  $('.item-about__title span').css('opacity', '1');
+			  $('.item-about__title span').spincrement({
+				  from: 0,
+				  thousandSeparator: " ",
+				  duration: 1000
+			  });
+  
+			  show = false;
+		  }
+	  });
+	}
+
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
