@@ -755,6 +755,86 @@
     .about.about_page .article-content ul {
         max-width: 100%;
     }
+    .item-gallery {
+        height: 170px;
+        border-radius: 12px;
+    }
+    .item-gallery img {
+        border-radius: 12px;
+    }
+    .row.row_page > div {
+        padding: 0 4px;
+        margin-bottom: 8px;
+    }
+    .row.row_page {
+        margin: 0 -4px;
+        margin-bottom: -8px;
+    }
+    .title-block {
+        font-size: 19px;
+    }
+    .page-gallery .title-block {
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .page-calendar,
+    .page-gallery {
+        padding-bottom: 60px;
+    }
+
+    .page-calendar .poster__image {
+        height: 305px;
+    }
+    .page-calendar .row_page {
+        padding-top: 30px;
+    }
+    .unit-calendar {
+        padding: 20px;
+        font-size: 14px;
+        border-width: 2px;
+        border-radius: 16px;
+    }
+    .unit-calendar__date {
+        font-size: 15px;
+        padding: 7px 15px;
+        border-radius: 33px;
+        margin-bottom: -4px;
+    }
+    .unit-calendar__image {
+        width: 230px;
+        height: 168px;
+        border-radius: 1000px;
+    }
+    .unit-calendar__image img {
+        border-radius: 1000px;
+    }
+    .unit-calendar__title {
+        padding: 22px 0;
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .unit-calendar__title::before {
+        width: 50px;
+        height: 3px;
+    }
+    .unit-calendar_blue .unit-calendar__date {
+        border-width: 1px;
+    }
+    .unit-calendar_blue .unit-calendar__image {
+        border-width: 3px;
+    }
+    .unit-calendar__background {
+        border-radius: 16px;
+    }
+    .unit-calendar__background img {
+        border-radius: 16px;
+    }
+    .page-calendar .row.row_page > div {
+        margin-bottom: 20px;
+    }
+    .page-calendar .row.row_page {
+        margin-bottom: -20px;
+    }
 }
 
 /* Small Devices, Tablets */
