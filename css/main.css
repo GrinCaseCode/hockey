@@ -460,6 +460,7 @@ form {
 	display: flex;
 	align-items: flex-start;
 	position: relative;
+	transition: all 0.3s;
 }
 .item-calendar::after {
 	position: absolute;
@@ -1595,6 +1596,9 @@ form {
 	align-items: flex-start;
 	position: relative;
 	z-index: 1;
+}
+.unit-calendar:hover {
+	box-shadow: 0 5px 15px #bababa;
 }
 .unit-calendar__date {
 	font-size: 0.94vw;
